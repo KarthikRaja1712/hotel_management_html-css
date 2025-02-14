@@ -1,0 +1,162 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Poppins",sans-serif;
+
+}
+body{
+    min-height: 100vh;
+    background: #222;
+    background-size: cover;
+    background-position: center;
+
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 34px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+.navbar a{
+    position: relative;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top:100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: .3s;
+
+}
+.navbar a:hover::before{
+    width:100%;
+}
+.mainclass{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 120px;
+}
+.mainclass1{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 20px;
+}
+hr.line {
+    width: 450px;
+    right: 420px;
+    border-top: 1px solid #bbb;
+    top:500px;
+  }
+.BoxModel{
+    position: relative;
+    margin-top:80px;
+    width:450px;
+    height:560px ;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    /* box-shadow:0 14px 28px rgba(223, 246, 248, 0.25),0 10px 10px rgba(239, 230, 230, 0.22) ; */
+    background: #f2f2f2;
+    transition: 0.5 ease-in-out;
+
+}
+.child1{
+    position:absolute;
+    color: white;
+    font-size: 20px;
+    padding-left: 2px;
+    padding-right: 2px;
+    font: weight 500px;;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: fit-content;
+    background-color: rgb(93, 93, 227);
+    justify-content: center;
+    top:300px;
+}
+
+.container img{
+    width: 100%;
+     height: 350px;
+     background-size:cover;
+     border-top: 20px;
+    text-align: center;
+        display: block;
+        border-radius: 20px;
+}
+.imageclass img{
+    position: relative;
+    width: 60px;
+    height: 50px;
+    right: 180px;
+    top:40px;
+    margin-top: 0;
+  }
+.BoxModel:hover{
+    transform: translateY(-20px);
+}
+h2{
+    padding-left: 25px;
+    padding-top: 10px;
+    font-family:"Courier New";
+    text-align: left;
+    font-size: 20px;
+    left: 0;
+    margin: 1;
+}
+h5{
+    font-family:"Courier New";
+    padding-left: 25px;
+    text-align: left;
+    font-size: 18px;
+    letter-spacing: -1px;
+    margin:0;
+    color:darkgray;
+    font-weight:550;
+}
+h4{
+    font-family:"Courier New";
+    padding-left: 350px;
+    text-align: left;
+    font-size: 18px;
+    letter-spacing: -1px;
+    margin:0;
+    color:green;
+    font-weight:550;
+}
+p{
+    
+    padding-left:85px;
+    font-family:"Courier New";
+    text-align:left;
+    font-size: 16px;
+    left: 0;
+    color:darkcyan;
+    letter-spacing: -1px;
+    margin-top: 0  ;
+    
+}

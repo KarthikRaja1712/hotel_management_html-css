@@ -1,0 +1,150 @@
+*{
+ margin: 0px;
+ padding: 0px;
+ font-family: Arial, Helvetica, sans-serif;
+ box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+body{
+    min-height: 100vh;
+    background:url('pic4.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background:#333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 34px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+.navbar a{
+    position: relative;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top:100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: .3s;
+
+}
+.navbar a:hover::before{
+    width:100%;
+}
+hr.solid {
+    border-top: 1px solid #bbb;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+.card{
+    background-color: white;
+    width:400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 14px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 250px;
+    box-shadow:0 10px 20px rgba(0,0,0,0.1),0 10px 10px rgba(0,0,0,0.1) ;
+
+}
+.card h1{
+    font-weight: 350px;
+    font-size: 28px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
+.card h2{
+    font-weight:150px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.card label{
+    font-size: 15px;
+    padding-top: 15px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    padding-bottom: 2px;
+    font-weight: 700;
+}
+.card input{
+    width: 350px;
+    height: 40px;
+    margin-top: 18px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #a6a6a6;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+.card button{
+    width: 350px;
+    height: 31px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    background-color: #f0c14b;
+    border:1px solid #a6a6a6;
+    border-top-color: #949494;
+    background-image: linear-gradient(#f7da90,#e2b33b);
+    border-radius: 6px;
+    margin-left: 10px;
+}
+.card p, .card p a{
+ font-size: 18px;
+ line-height: 1.5;
+ font: weight 100px;
+ margin-left: 10px;
+
+}
+a{
+    text-decoration: none;
+    line-height: 1.5;
+}
+button a{
+    color: black;;
+}
+.card a{
+    margin-top: 15px;
+    font-size: 17px;
+} 
+.symbol::before
+{
+    display:inline-block;
+    content: "";
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #949494;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+#lastline{
+    margin-top: 15px;
+    margin-left: 10px;
+}

@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f2f2f2;
+}
+.mainclass{
+    display: flex;
+    justify-content:space-evenly;
+}
+hr.line {
+    width: 450px;
+    right: 420px;
+    border-top: 1px solid #bbb;
+    top:500px;
+  }
+.BoxModel{
+    position: relative;
+    margin-top:80px;
+    width:450px;
+    height:590px ;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor:pointer;
+    box-shadow:0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22) ;
+    background: #f2f2f2;
+    transition: 0.5 ease-in-out;
+
+}
+.child1{
+    position:absolute;
+    color: white;
+    font-size: 20px;
+    padding-left: 2px;
+    padding-right: 2px;
+    font: weight 500px;;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: fit-content;
+    background-color: rgb(93, 93, 227);
+    justify-content: center;
+    top:300px;
+}
+
+.container img{
+     max-width: 100%;
+     height: 350px;
+     background-size:cover;
+     border-top: 20px;
+    text-align: center;
+        margin: auto;
+        display: block;
+        border-radius: 20px;
+}
+.imageclass img{
+    position: relative;
+    width: 60px;
+    height: 50px;
+    padding-right:350px;
+    top:40px;
+    margin-top: 0;
+  }
+.BoxModel:hover{
+    opacity: 1;
+    transform: translateY(-20px);
+}
+h2{
+    padding-left: 25px;
+    padding-top: 10px;
+    font-family:"Courier New";
+    text-align: left;
+    font-size: 20px;
+    left: 0;
+    margin: 1;
+}
+h5{
+    font-family:"Courier New";
+    padding-left: 25px;
+    text-align: left;
+    font-size: 18px;
+    letter-spacing: -1px;
+    margin:0;
+    color:darkgray;
+    font-weight:550;
+}
+h4{
+    font-family:"Courier New";
+    padding-left: 350px;
+    text-align: left;
+    font-size: 18px;
+    letter-spacing: -1px;
+    margin:0;
+    color:green;
+    font-weight:550;
+}
+p{
+    
+    padding-left:85px;
+    font-family:"Courier New";
+    text-align:left;
+    font-size: 16px;
+    left: 0;
+    color:darkcyan;
+    letter-spacing: -1px;
+    margin-top: 0  ;
+    
+}
